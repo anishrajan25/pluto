@@ -15,3 +15,6 @@ module.exports = (robot) ->
 
   robot.hear /open source contribution/i, (msg) ->
     msg.send "Hacktoberfest try kiya kya??"
+
+  robot.hear /daily standup link/i, (msg) ->
+    msg.send "https://razorpay.zoom.us/j/94410707831?pwd=ZFJpWFBzRm5zM3NhljdDhjV3kzZz09"
